@@ -1,0 +1,11 @@
+wcwr acepta palabras palindromas de 0 y 1 con una c en medio, ejemplo 01c10
+no acepta palabras que no sean palindromas, ejemplo 01c01
+
+n0n1 acepta palabras con la misma cantidad de 0 que de 1, ejemplo 00001111
+no acepta palabras que no tengan la misma cantidad de ambos, ejemplo 0011111
+
+0n-1-2n acepta palabras con cantidad de 1 doble a la cantidad de 0, ejemplo 000011111111
+no acepta palabras que no tengan esa cantidad de unos mas que de 0, ejemplo 000111
+
+1n0n acepta palabras con la misma cantidad de 0 que de 1, ejemplo 0011
+no acepta palabras que no tengan la misma cantidad de ambos, ejemplo 01111
